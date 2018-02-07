@@ -1,0 +1,12 @@
+{
+"entrypoints": [
+{
+"name": "Attempt1",
+"file": "index.html"
+},
+{
+"name": "Revisions",
+"file": "revisions.html"	
+}
+]
+}

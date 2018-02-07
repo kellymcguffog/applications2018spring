@@ -46,3 +46,27 @@ img{
 	vertical-align: top;
 	padding-top: 50px;
 }
+.pone{
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 50px;
+}
+.ptwo{
+	display: inline-block;
+	vertical-align: top;
+}
+.pthree{
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 50px;
+}
+.productt{
+	padding-top: 50px;
+}
+.listt{
+	padding-top: 50px;
+}
+.pfour{
+	display: inline-block;
+	vertical-align: top;
+}
