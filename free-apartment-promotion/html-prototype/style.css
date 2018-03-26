@@ -1,0 +1,641 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url(apartment.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center center;
+}
+.pop{
+	font-size: 147px;
+}
+.mobile{
+	display: none;
+}
+.button-mobile{
+	display: none;
+}
+.container{
+  height: 90%;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  display: block;
+  margin-top: 2%;
+}
+.opening{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	text-transform: uppercase;
+}
+h1{
+	font-size: 130px;
+	line-height: 140px;
+	margin: 0;
+}
+hr{
+	margin-bottom: 5%;
+	margin-top: 5%;
+	border: 2px solid white;
+}
+#email{
+	width: 100%;
+	height: 30px;
+	border: none;
+	margin-top: 5%;
+}
+.button{
+	background-color: #F04D25;
+	width: 430px;
+	height: 50px;
+	margin: auto;
+	position: relative;
+	margin-top: 5%;
+	cursor: pointer;
+}
+.learn-button{
+	background-color: #F04D25;
+	width: 280px;
+	height: 50px;
+	margin: auto;
+	position: relative;
+	margin-top: 2%;
+	cursor: pointer;
+}
+.button-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+.fname{
+	display: inline-block;
+	width: 47.5%;
+	height: 30px;
+	margin-right: 4%;
+}
+#fname{
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+#lwrongname{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+}
+#fwrongname{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+}
+.lname{
+	display: inline-block;
+	width: 47.5%;
+	height: 30px;
+}
+#lname{
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+::placeholder{
+	font-size: 15px;
+	text-transform: uppercase;
+	opacity: .5;
+	font-family: 'Open Sans', sans-serif;
+	text-indent: 10px;
+}
+input[type="text"]
+{
+    font-size: 15px;
+  	font-family: 'Open Sans', sans-serif;
+	text-indent: 10px;
+}
+a{
+	color: white;
+	cursor: pointer;
+}
+h3{
+	font-size: 28px;
+	margin: 0;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+.heading{
+	display: inline-block;
+	width: 40%;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	vertical-align: top;
+}
+.thanks{
+	display: inline-block;
+	width: 40%;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	vertical-align: top;
+	float: right;
+	margin-right: 100px;
+}
+.thanks-text{
+	text-transform: none;
+}
+#test3{
+	color: #F04D25;
+	font-size: 15px;
+	font-weight: normal;
+}
+.error{
+	display: none;
+	color:#F04D25;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 5%;
+	font-size: 15px;
+}
+.title{
+	font-size: 35px;
+	line-height: 35px;
+}
+h2{
+	font-size: 80px;
+	text-align: center;
+	margin: 0;
+	line-height: 80px;
+}
+.info{
+	display: inline-block;
+	width: 45%;
+	float: right;
+	margin-right: 100px;
+}
+p{
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+}
+span{
+	font-size: 85px;
+}
+@media(min-width: 1100px) and (max-width: 1300px){
+	h1{
+		line-height: 100px;
+		font-size: 100px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	h2{
+		font-size: 68px;
+		line-height: 73px;
+	}
+	.pop{
+		font-size: 112px;
+	}
+	.button{
+		width: 385px;
+	}
+	span{
+		font-size: 73px;
+	}
+	.info{
+		margin-right: 50px;
+	}
+	.title{
+		line-height: 30px;
+		font-size: 30px;
+	}
+	.thanks{
+
+	}
+}
+@media(min-width: 900px) and (max-width: 1100px){
+	body{
+		background-image: url(apartment2.jpg);
+
+	}
+	h1{
+		line-height: 110px;
+		font-size: 110px;
+	}
+	h3{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 55px;
+		line-height: 60px;
+	}
+	.learn-button{
+		margin-top: 5%;
+	}
+	.button{
+		width: 310px;
+	}
+	.pop{
+		font-size: 123px;
+	}
+	span{
+		font-size: 61px;
+	}
+	.info{
+		margin-right: 50px;
+	}
+	.title{
+		line-height: 46px;
+		font-size: 40px;
+	}
+	.thankyou{
+		font-size: 40px;
+		line-height: 46px;
+	}
+	p{
+		font-size: 16px;
+	}
+	.fname{
+		margin-right: 3%;
+	}
+	#fwrongname{
+		font-size: 12px;
+	}
+	#lwrongname{
+		font-size: 12px;
+	}
+	#test3{
+		font-size: 12px;
+	}
+	#email{
+		width: 99%;
+	}
+}
+@media(min-width: 735px) and (max-width: 900px){
+	body{
+		background-image: url(apartment3.jpg);
+
+	}
+	h1{
+		line-height: 115px;
+		font-size: 110px;
+	}
+	.pop{
+		font-size: 124px;
+	}
+	h3{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 45px;
+		line-height: 50px;
+	}
+	.heading{
+		margin-left: 20px;
+	}
+	.thanks{
+		margin-right: 50px;
+	}
+	.button{
+		width: 280px;
+	}
+	.more{
+		margin-top: 10%;
+	}
+	span{
+		font-size: 50px;
+	}
+	.info{
+		margin-right: 40px;
+	}
+	.title{
+		line-height: 23px;
+		font-size: 20px;
+	}
+	.thankyou{
+		font-size: 23px;
+		line-height: 23px;
+	}
+	p{
+		font-size: 13px;
+	}
+	#email{
+		width: 99%;
+	}
+	.fname{
+		margin-right: 3%;
+	}
+	#fwrongname{
+		font-size: 11px;
+	}
+	#lwrongname{
+		font-size: 11px;
+	}
+	#test3{
+		font-size: 11px;
+	}
+}
+@media(min-width: 600px) and (max-width: 735px){
+	body{
+		background-image: url(apartment5.jpg);
+
+	}
+	h1{
+		line-height: 95px;
+		font-size: 90px;
+	}
+	.container{
+		margin-top: 8%;
+	}
+	.pop{
+		font-size: 95px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	h2{
+		font-size: 35px;
+		line-height: 40px;
+	}
+	.heading{
+		margin-left: 20px;
+	}
+	.button{
+		width: 230px;
+	}
+	span{
+		font-size: 40px;
+	}
+	.pop{
+		font-size: 99px;
+	}
+	.info{
+		margin-right: 20px;
+	}
+	.title{
+		line-height: 20px;
+		font-size: 16px;
+	}
+	.thanks{
+		margin: 0;
+		margin-right: 5%;
+	}
+	.thankyou{
+		font-size: 23px;
+		line-height: 23px;
+	}
+	p{
+		font-size: 13px;
+	}
+	#email{
+		width: 99%;
+	}
+	.fname{
+		margin-right: 3%;
+	}
+	#fwrongname{
+		font-size: 8px;
+	}
+	#lwrongname{
+		font-size: 8px;
+	}
+	#test3{
+		font-size: 8px;
+	}
+}
+@media(min-width: 400px) and (max-width: 600px){
+	body{
+		background-image: url(apartment.jpg);
+		/*background-size: auto;*/
+	}
+	.container{
+		margin-top: 15%;
+	}
+	.more{
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 10%;
+	}
+	.pop{
+		font-size: 65px;
+	}
+	h1{
+		line-height: 60px;
+		font-size: 58px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	h2{
+		font-size: 55px;
+		line-height: 60px;
+	}
+	.headline{
+		margin-bottom: 5%;
+	}
+	.learn-button{
+		width: 335px;
+	}
+	.mobile-head{
+		font-size: 23px;
+	}
+	.heading{
+		width: 100%;
+		display: block;
+		margin-bottom: 5%;
+	}
+	.button{
+		display: none;
+	}
+	span{
+		font-size: 60px;
+	}
+	hr{
+		display: none;
+	}
+	.info{
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+	.title{
+		display: none;
+	}
+	.thanks{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		float: none;
+	}
+	.thankyou{
+		font-size: 16px;
+		line-height: 20px;
+		text-align: center;
+		margin-bottom: 5%;
+	}
+	.thanks-text{
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	p{
+		font-size: 13px;
+		text-align: center;
+	}
+	#email{
+		width: 99%;
+	}
+	.fname{
+		margin-right: 3%;
+	}
+	#fwrongname{
+		font-size: 8px;
+	}
+	#lwrongname{
+		font-size: 8px;
+	}
+	#test3{
+		font-size: 8px;
+	}
+	.mobile{
+		display: block;
+		text-align: center;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.button-mobile{
+		display: block;
+		background-color: #F04D25;
+		width: 224px;
+		height: 50px;
+		margin: auto;
+		position: relative;
+		margin-top: 5%;
+		cursor: pointer;
+	}
+}
+@media(min-width: 300px) and (max-width: 400px){
+	body{
+		background-image: url(apartment.jpg);
+		/*background-size: auto;*/
+	}
+	.container{
+		margin-top: 15%;
+		text-align: center;
+	}
+	.more{
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 10%;
+	}
+	.pop{
+		font-size: 50px;
+	}
+	h1{
+		line-height: 50px;
+		font-size: 45px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	h2{
+		font-size: 50px;
+		line-height: 55px;
+	}
+	.headline{
+		margin-bottom: 5%;
+	}
+	.learn-button{
+		width: 258px;
+	}
+	.mobile-head{
+		font-size: 18px;
+	}
+	.heading{
+		width: 100%;
+		display: block;
+		margin-bottom: 5%;
+	}
+	.button{
+		display: none;
+	}
+	span{
+		font-size: 55px;
+	}
+	hr{
+		display: none;
+	}
+	.info{
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+	.title{
+		display: none;
+	}
+	.thanks{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+		float: none;
+	}
+	.thankyou{
+		font-size: 20px;
+		line-height: 20px;
+		text-align: center;
+		margin-bottom: 5%;
+	}
+	.thanks-text{
+		width: 90%;
+		margin: 0 auto;
+	}
+	p{
+		font-size: 12px;
+	}
+	#email{
+		width: 99%;
+	}
+	.fname{
+		margin-right: 3%;
+		width: 46.5%;
+	}
+	#fwrongname{
+		font-size: 8px;
+	}
+	#lwrongname{
+		font-size: 8px;
+	}
+	#test3{
+		font-size: 8px;
+	}
+	.mobile{
+		display: block;
+		text-align: center;
+		font-size: 14px;
+		line-height: 30px;
+	}
+	.button-mobile{
+		display: block;
+		background-color: #F04D25;
+		width: 60%;
+		height: 50px;
+		margin: auto;
+		position: relative;
+		margin-top: 5%;
+		cursor: pointer;
+	}
+}
