@@ -1,0 +1,12 @@
+{
+"entrypoints": [
+{
+"name": "video",
+"file": "index.html"
+},
+{
+"name": "configurator",
+"file": "configurator.html"
+}
+]
+}
