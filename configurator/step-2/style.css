@@ -1,0 +1,11 @@
+h1{
+	font-size: 25px;
+	font-family: sans-serif;
+	margin-left: 3%;
+}
+img{
+	height: auto;
+	width: 800px;
+	margin: 3%;
+	box-shadow: 5px 10px 8px #888888;
+}
